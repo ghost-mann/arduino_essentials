@@ -1,10 +1,11 @@
 #include <Arduino.h>
 #include "led.h"
+#include "analog_led.h"
 
 void setup() {
-  initLED();
+  init_analog_led();
 }
 
 void loop() {
-  blinkLED();
+  analogLED();
 }
