@@ -5,5 +5,6 @@ extern int ledPin;
 
 void initLED();
 void blinkLED();
+void pulseLED();
 
 #endif
