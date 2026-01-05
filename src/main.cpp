@@ -1,11 +1,10 @@
 #include <Arduino.h>
-int ledPin = 8;
-int buttonPin = 7;
+#include "led.h"
 
 void setup() {
-  pinMode()
+  initLED();
 }
 
 void loop() {
-
+  blinkLED();
 }
